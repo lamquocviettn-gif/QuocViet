@@ -402,8 +402,8 @@ footer .socials a {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-
 .about-flex img {
+  flex: 0 0 220px;
   width: 220px;
   height: 220px;
   object-fit: cover;
