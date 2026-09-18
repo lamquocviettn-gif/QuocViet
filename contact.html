@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nguyễn Văn A - Liên hệ</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo">👤 Nguyễn<span>VănA</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Trang chủ</a></li>
+      <li><a href="about.html">Giới thiệu</a></li>
+      <li><a href="projects.html">Dự án &amp; Kỹ năng</a></li>
+      <li><a href="contact.html" class="active">Liên hệ</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="container" style="padding-top:50px;">
+  <h1 class="section-title">Liên hệ với tôi</h1>
+  <p class="section-subtitle">Rất vui nếu được kết nối, trao đổi hoặc hợp tác cùng bạn.</p>
+
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <h3>Thông tin liên hệ</h3>
+      <p>📍 Địa chỉ: 123 Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh</p>
+      <p>📞 Điện thoại: 0909 123 456</p>
+      <p>✉️ Email: nguyenvana@example.com</p>
+      <p>🔗 GitHub: github.com/nguyenvana</p>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <h3>Gửi tin nhắn cho tôi</h3>
+      <label for="name">Họ và tên</label>
+      <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required />
+
+      <label for="message">Nội dung</label>
+      <textarea id="message" name="message" placeholder="Nhập nội dung cần trao đổi..." required></textarea>
+
+      <button type="submit" class="btn">Gửi liên hệ</button>
+    </form>
+  </div>
+
+  <div class="map-frame">
+    <iframe
+      src="https://www.google.com/maps?q=Nguyen+Hue,Quan+1,Ho+Chi+Minh&output=embed"
+      title="Bản đồ vị trí"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="socials">
+    <a href="#">Facebook</a>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+  </div>
+  <p>&copy; 2026 Nguyễn Văn A. Bài tập xây dựng website tĩnh - HTML5 &amp; CSS3.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
